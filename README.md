@@ -36,10 +36,6 @@ project0/
 - CSS3
 - VS Code
 
-## 📷 Preview
-
-*(Optional: Add screenshots if you want to make it fancy)*
-
 ## 🙌 Acknowledgments
 
 Thanks to the CS50 team for this awesome course 💙  
