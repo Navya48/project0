@@ -1,0 +1,149 @@
+body{
+  background-color: rgb(29, 28, 28);
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+/*Google Search*/
+.navbar{
+  text-align: right;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+
+a{
+  margin-right: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 130px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.google-search{
+  width: 90%;
+  max-width: 500px;
+  margin-top: 20px;
+  padding-left: 20px ;
+  padding-right: 20px;
+  padding-top: 15px ;
+  padding-bottom: 15px;
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 25px;
+  background-color: rgb(232, 232, 232);
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.submit-button{
+  width: 200px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom:12px ;
+  padding-top: 12px ;
+  font-size: 16px;
+  background-color: rgb(156, 150, 150);
+  border-style: solid;
+  border: none;
+  border-radius: 6px;
+}
+
+.lucky-button{
+  width: 200px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom:12px ;
+  padding-top: 12px ;
+  font-size: 16px;
+  background-color: rgb(156, 150, 150);
+  border-style: solid;
+  border: none;
+  border-radius: 6px;
+}
+
+/*Advanced search*/
+
+.container {
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h2 {
+  color: rgb(242, 139, 130);
+  margin-bottom: 20px;
+}
+
+.form-search {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: white;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(160, 186, 224);
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+}
+
+.form-search {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between label and input */
+  margin-bottom: 15px;
+}
+
+label {
+  width: 200px; /* fixed width so inputs align */
+  font-size: 14px;
+  color: white;
+}
+
+
+.advance-button{
+  background-color: rgb(40, 97, 210);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.advance-button:hover {
+  background-color: rgb(14, 52, 128);
+}
+
